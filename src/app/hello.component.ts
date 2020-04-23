@@ -1,4 +1,6 @@
 import { Component, Input } from '@angular/core';
+import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
 
 @Component({
   selector: 'hello',
@@ -7,4 +9,5 @@ import { Component, Input } from '@angular/core';
 })
 export class HelloComponent  {
   @Input() name: string;
+
 }
